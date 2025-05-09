@@ -1,0 +1,150 @@
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+  }
+
+  header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer ;
+  }
+
+  .register-btn {
+    background: #4CAF4F;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: #fff;
+  }
+
+  .hero-text {
+    flex: 1;
+    max-width: 600px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-text h1 span {
+    color: #4CAF4F;
+  }
+
+  .hero-text p {
+    color: #777;
+    margin-bottom: 1rem;
+  }
+
+  .hero-text button {
+    background: #4CAF4F;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .clients-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .clients-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .clients-description {
+    font-size: 1rem;
+    color: #717171;
+    margin-bottom: 40px;
+  }
+  
+  .clients-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-bottom: 60px;
+  }
+  
+  .clients-logos img {
+    width: 60px;
+    height: auto;
+    transition: all 0.3s ease;
+  }
+  
+  .clients-logos img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+  
+  .community-highlight {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .community-highlight h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .community-highlight p {
+    font-size: 1rem;
+    color: #717171;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .community-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+  }
+
+  .card {
+    max-width: 300px;
+    padding: 35px;
+    text-align: center;
+     
+  }
